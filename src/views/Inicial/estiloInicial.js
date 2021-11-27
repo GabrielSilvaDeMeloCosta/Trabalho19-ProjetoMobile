@@ -28,7 +28,7 @@ const estiloInicial = StyleSheet.create({
         height: 40,
         borderWidth: 2,
         borderColor: '#e8f2e9',
-        backgroundColor: '#14417b',
+        backgroundColor: '#64e8c9',
         justifyContent: 'center',
         alignItems: 'center',
     },
