@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, TouchableOpacity } from "react-native";
-import estiloItem from './estiloItem';
+import estiloItem from './estiloDetalhes';
 
 function Item({ navigation }) {
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Perfil from '../../views/Perfil/Perfil';
+import Perfil from '../../views/Perfil/SobreNós';
 import RotasDrawer from '../rotasDrawer/RotasDrawer';
 
 const Tab = createBottomTabNavigator();

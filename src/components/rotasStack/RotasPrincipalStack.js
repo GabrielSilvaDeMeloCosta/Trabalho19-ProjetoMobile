@@ -1,8 +1,8 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import Inicial from '../../views/Inicial/Inicial';
-import Colecao from '../../views/Colecao/Colecao';
-import Item from '../../views/Item/Item';
+import Colecao from '../../views/Colecao/Restaurantes';
+import Item from '../../views/Item/Detalhes';
 import estiloRotasStack from './estiloRotasStack';
 
 const Stack = createStackNavigator ();

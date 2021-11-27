@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
-import estiloPerfil from './estiloPerfil';
+import estiloPerfil from './estiloSobreNós';
 
 function Perfil ({ navigation }) {
     const voltar = () => {
