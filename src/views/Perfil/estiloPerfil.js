@@ -9,7 +9,7 @@ alignItems: 'center',
 borda: {
 	backgroundColor: '#081a31',
 	width: '80%',
-	height: '25%',
+	height: '45%',
 	borderReadius: 10,
 },
 texto: {
