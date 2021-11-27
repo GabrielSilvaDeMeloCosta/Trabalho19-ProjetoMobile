@@ -28,13 +28,13 @@ return (
             <Text style={estiloLogin.texto}> Login </Text>
             <TextInput
             style={estiloLogin.campo}
-            placeholder="Login"
+            placeholder="Digite o Login"
             onChangeText={login => setLogin(login)}
             value={login}
             />
             <TextInput
             style={estiloLogin.campo}
-            placeholder="Senha"
+            placeholder="Digite a senha"
             onChangeText={senha => setSenha (senha)}
             value={senha}
             />

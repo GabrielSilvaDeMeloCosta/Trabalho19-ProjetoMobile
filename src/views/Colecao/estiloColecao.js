@@ -10,7 +10,7 @@ const estiloColecao = StyleSheet.create({
     borda: {
         backgroundColor: '#081a31',
         width: '80%',
-        height: '25%',
+        height: '45%',
         borderRadius: 10,
     },
     texto: {

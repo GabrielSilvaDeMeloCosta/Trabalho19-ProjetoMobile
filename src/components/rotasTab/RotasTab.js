@@ -13,7 +13,7 @@ const RotasTab = () => {
                         activeTintColor: '#FFFFFF'} }
         >
         <Tab.Screen name="Inicial" component={RotasDrawer} />
-        <Tab.Screen name="Perfil" component={Perfil} />
+        <Tab.Screen name="Sobre Nós" component={Perfil} />
         </Tab.Navigator>
     );
 }

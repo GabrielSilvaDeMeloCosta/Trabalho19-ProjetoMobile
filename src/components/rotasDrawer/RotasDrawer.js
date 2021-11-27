@@ -11,9 +11,9 @@ const RotasDrawer = () => {
     return (
         <Drawer.Navigator>
             <Drawer.Screen name="Inicial" component={RotasPrincipalStack}/>
-            <Drawer.Screen name="Colecao" component={Colecao}/>
-            <Drawer.Screen name="Item" component={Item}/>
-            <Drawer.Screen name="Perfil" component={Perfil}/>
+            <Drawer.Screen name="Restaurantes" component={Colecao}/>
+            <Drawer.Screen name="Detalhes" component={Item}/>
+            <Drawer.Screen name="Sobre Nós" component={Perfil}/>
         </Drawer.Navigator>
     );
 }

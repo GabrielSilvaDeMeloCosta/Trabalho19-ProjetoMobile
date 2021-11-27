@@ -5,11 +5,11 @@ import estiloInicial from './estiloInicial';
 function Inicial({ navigation }) {
 
     const abrirColecao = () => {
-        navigation.navigate('Colecao')
+        navigation.navigate('Restaurantes')
     }
 
     const abrirItem = () => {
-        navigation.navigate('Item')
+        navigation.navigate('Detalhes')
     }
 
     return (
@@ -19,11 +19,11 @@ function Inicial({ navigation }) {
                 <Text style={estiloInicial.texto}>Inicial</Text>
 
                 <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirColecao}>
-                    <Text style={estiloInicial.botaoTexto}>Coleção</Text>
+                    <Text style={estiloInicial.botaoTexto}>Restaurantes</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirItem}>
-                    <Text style={estiloInicial.botaoTexto}>Item</Text>
+                    <Text style={estiloInicial.botaoTexto}>Detalhes</Text>
                 </TouchableOpacity>
 
             </View>

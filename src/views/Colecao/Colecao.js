@@ -11,7 +11,7 @@ function Colecao({ navigation }) {
         <View style={estiloColecao.container}>
             <View style={estiloColecao.borda}>
 
-                <Text style={estiloColecao.texto}>Coleção</Text>
+                <Text style={estiloColecao.texto}>Restaurantes</Text>
 
                 <TouchableOpacity style={estiloColecao.botaoContainer} onPress={voltar}>
                     <Text style={estiloColecao.botaoTexto}>Voltar</Text>
