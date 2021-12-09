@@ -10,7 +10,7 @@ const estiloColecao = StyleSheet.create({
     borda: {
         backgroundColor: '#081a31',
         width: '80%',
-        height: '45%',
+        height: '75%',
         borderRadius: 10,
     },
     texto: {
@@ -38,5 +38,14 @@ const estiloColecao = StyleSheet.create({
         color: '#FFFFFF',
         fontWeight: 'bold'
     },
+    tinyLogo: {
+        width: 50,
+        height: 50,
+    },
+    logo: {
+        width: 66,
+        height: 58,
+    },
+    
 })
 export default estiloColecao
